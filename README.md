@@ -1,2 +1,3 @@
-# simple-python
-Simple python snippets
+# simple-snippets
+
+Snippets/programs demonstrating basic functionalities.
