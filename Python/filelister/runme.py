@@ -1,0 +1,26 @@
+#!/usr/bin/env python3
+
+import os
+
+cwd = './'
+
+all_files = []
+
+def list_files(base_dir):
+    global all_files
+    # print("base_dir: ", base_dir)
+    for entry in os.listdir(base_dir):
+        # print("entry: ", entry)
+        if os.path.isdir(os.path.join(base_dir, entry)):
+
+            all_files = list_files(os.path.join(base_dir, entry))
+        elif os.path.isfile(os.path.join(base_dir, entry)):
+            # print(entry, " is a file.")
+            # print("Found a file: ", entry, "\tAppending: ", os.path.join(base_dir, entry))
+            all_files.append(os.path.join(base_dir, entry))
+    return all_files
+
+
+all_files = list_files(cwd)
+for entry in all_files:
+    print(entry)
