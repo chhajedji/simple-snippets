@@ -1,0 +1,17 @@
+* FileLister
+
+List all files inside a given test directory using recursion.
+
+Basic python implementation of UNIX ~find~ or [[https://github.com/sharkdp/fd][fd]] for locating only files.
+
+
+Also contains some basic test cases.
+
+** Usage
+
+#+BEGIN_SRC sh
+  ./runme.py [OPTIONAL]
+
+  If arguments are porvided, then will list files from that directory.
+  If nothing is provided, then will list all files from current directory.
+#+END_SRC
