@@ -64,6 +64,16 @@ class flip {
         }
 };
 
+void overload_me()
+{
+  cout << "Hi\n";
+}
+
+void overload_me(string a)
+{
+  cout << a << endl;
+}
+
 int main() {
     complex a(2, 3);
     complex b(3, 4);
@@ -74,6 +84,9 @@ int main() {
 
     flip me(3, 4);
     me.print_val();
+
+    overload_me();
+    overload_me("New String");
 
     return 0;
 }
