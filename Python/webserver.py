@@ -7,7 +7,10 @@ any other, run simple http server.
 
 Usage
 
-Get your IP address with `ifconfig` and from your browser, go to <ip_addres>/s:6969 and access your directory. Now go to <ip_addres>/s:6969/admin to view other admin info.
+Get your IP address with `ifconfig` and from your browser, go to
+<ip_addres>/s:6969 and access your directory. Now go to
+<ip_addres>/s:6969/admin to view other admin info.
+
 """
 
 import SocketServer
