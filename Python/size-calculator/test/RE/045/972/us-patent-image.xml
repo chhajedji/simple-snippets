@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<!DOCTYPE us-patent-image PUBLIC "-//USPTO//DTD us-patent-image v1.0 2002-06-04//EN" "..\..\..\us-patent-image-010.dtd">
+<us-patent-image
+ file="M00883"
+ date-produced="20210115"
+ lang="EN"
+ status="COC"
+>
+
+ <patent-metadata>
+  <full-document-number>RE045972</full-document-number>
+
+  <document-id lang="EN">
+   <country>US</country>
+   <doc-number>RE045972</doc-number>
+   <kind>E1</kind>
+   <date>20160412</date>
+  </document-id>
+
+  <page-count>47</page-count>
+  <scan-date>
+   <date>20160323</date>
+  </scan-date>
+  <record-status value="rescan" />
+  <related-document>
+   <doc-number>08320182</doc-number>
+  </related-document>
+
+  <bib-pages>
+   <begin>1</begin>
+   <end>2</end>
+  </bib-pages>
+
+  <abstract-pages>
+   <begin>1</begin>
+   <end>2</end>
+  </abstract-pages>
+
+  <drawings-pages>
+   <begin>3</begin>
+   <end>17</end>
+  </drawings-pages>
+
+  <description-pages>
+   <begin>18</begin>
+   <end>34</end>
+  </description-pages>
+
+  <claims-pages>
+   <begin>34</begin>
+   <end>46</end>
+  </claims-pages>
+
+  <certificate-of-correction-pages>
+   <begin>47</begin>
+   <end>47</end>
+  </certificate-of-correction-pages>
+
+ </patent-metadata>
+
+ <certificate-of-correction>
+  <document-id lang="EN">
+   <country>US</country>
+   <doc-number>RE045972</doc-number>
+   <kind>X6</kind>
+   <date>20210112</date>
+  </document-id>
+
+  <page-count>1</page-count>
+  <scan-date>
+   <date>20201228</date>
+  </scan-date>
+  <record-status value="rescan" />
+  <related-document>
+   <doc-number>RE045972</doc-number>
+  </related-document>
+  <begin>47</begin>
+  <end>47</end>
+ </certificate-of-correction>
+</us-patent-image>
