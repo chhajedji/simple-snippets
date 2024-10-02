@@ -12,22 +12,24 @@ int main()
 void draw(int r)
 {
 	int x, y;
+	float curve = 2;
 	std::cout << "Radius: " << r << std::endl;
 
 	for (y = 2*r; y >= 0; y--) {
 		// Getting x coordinate by solving for equation:
 		// (x-r)^2 + (y-r)^2 = r^2
 		// Center at (r, r).
-		x = (int)(2*r - (r + sqrt(y*(2*r - y))));
+		x = (int)((2*r - (r + sqrt(y*(2*r - y)))) * curve);
 
 		for (int j = 0; j < x; j++) {
-			std::cout << "  ";
+			std::cout << " ";
 		}
-		std::cout << "X";
+		// std::cout << "x";
 
-		for (int i = 0; i < (2*r - 2 * x); i++) {
-			std::cout << "  ";
+		for (int i = 0; i < ((int)(2*curve*r - 2*x)); i++) {
+			std::cout << "+";
 		}
-		std::cout << "X\n";
+		// std::cout << "x\n";
+		std::cout << "\n";
 	}
 }
